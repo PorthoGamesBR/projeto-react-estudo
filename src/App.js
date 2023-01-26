@@ -1,4 +1,5 @@
 import './App.css';
+import HelloWorld from './components/HelloWorld';
 
 function sum(a, b){
   return a + b;
@@ -15,7 +16,8 @@ function App() {
       <h2>Meu nome é {name}</h2>
       <p>Este é meu primeiro app em react</p>
       <p>A soma de 2+2 é {sum(2,2)}</p>
-      <img src={url} alt='Minha imagem'></img>     
+      <img src={url} alt='Minha imagem'></img>  
+      <HelloWorld />   
     </div>
   );
 }
