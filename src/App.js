@@ -3,17 +3,16 @@ import './App.css';
 //import SayMyName from './components/SayMyName';
 //import Pessoa from './components/Pessoa';
 //import List from './components/List';
-import Evento from './components/Evento';
-import Form from './components/Form';
+//import Evento from './components/Evento';
+//import Form from './components/Form';
+import Conditional from './components/Condicional';
 
 function App() {
   //var nome = "Manoportho"
   return (
     <div className="App">
-      <h1>Testando evento</h1>
-      <Evento numero="1"/>
-      <Evento numero="2"/>
-      <Form />
+      <h1>Renderização Condicional</h1>
+      <Conditional />
     </div>
   );
 }
