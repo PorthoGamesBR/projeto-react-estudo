@@ -1,6 +1,7 @@
 function Form() {
 
-    function cadastrarUsuario() {
+    function cadastrarUsuario(e) {
+        e.preventDefault()
         console.log("Cadastrou o usuário!")
     }
 
